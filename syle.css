@@ -1,0 +1,39 @@
+body{ 
+    background-color: rgb(188, 239, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.container{ 
+    text-align: center;
+background-color: rgb(44, 224, 143);
+padding: 30px;
+border-radius: 10px;
+ 
+}
+.footer{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+textarea{
+ height: 100px; 
+ width: 450px;
+ resize: none;
+ font-size: 18px;
+ border: solid 2px darkgray;
+ padding: 10px;
+}
+.Remaining{
+    color: red;
+}
+.character{ 
+    color: blue;
+}
